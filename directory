@@ -1,1 +1,2 @@
 
+<?php echo '<img src="' . esc_url( plugins_url( 'assets/images/underline.png', dirname(__FILE__) ) ) . '" > '; ?>
