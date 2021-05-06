@@ -1,2 +1,7 @@
 
 <?php echo '<img src="' . esc_url( plugins_url( 'assets/images/underline.png', dirname(__FILE__) ) ) . '" > '; ?>
+
+
+Post Thumbnail as Background:
+<?php $url = get_the_post_thumbnail_url(); ?>
+<div class="single-blog-post" style="background: url('<?php echo $url;?>'); background-size: cover; background-position: center; background-repeat: no-repeat;">
